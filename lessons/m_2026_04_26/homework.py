@@ -19,7 +19,7 @@ print("="*60 + "\n")
 
 # ---------- ЗАДАЧА 1 (легкая) ----------
 print("ЗАДАЧА 1: Объявление переменных и их типы")
-print("-" * 40)
+print("-" * 40 + "\n")
 
 # ТВОЙ КОД:
 items = 10
@@ -34,7 +34,7 @@ print(f"price_per_item = {price_per_item}, тип: {type(price_per_item)}")
 print(f"product_name = {product_name}, тип: {type(product_name)}")
 print(f"is_available = {is_available}, тип: {type(is_available)}")
 print(f"discount = {discount}, тип: {type(discount)}")
-print("\n")
+print("\n"*2)
 
 # ---------- ЗАДАЧА 2 (проблема float) ----------
 print("ЗАДАЧА 2: Сравнение float и Decimal")
@@ -45,7 +45,7 @@ float_result = 0.1 + 0.2
 decimal_result = Decimal('0.1') + Decimal('0.2')
 
 print(f"float: 0.1 + 0.2 = {float_result}")
-print(f"Decimal: 0.1 + 0.2 = {decimal_result}")
+print(f"Decimal: 0.1 + 0.2 = {decimal_result}, type-{type(decimal_result)}")
 print(f"Результаты равны? {float_result == decimal_result}")
 print("\n💡 ОТВЕТ: float использует двоичную систему и не может точно")
 print("представить 0.1 и 0.2. Decimal предназначен для точных")
